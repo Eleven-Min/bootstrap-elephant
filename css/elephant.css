@@ -1,0 +1,281 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+}
+
+nav {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #FFFFFF;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.logo {
+	width: 55%;
+}
+
+nav ul li a {
+	padding-top: 21px !important;
+	color: #000000;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+nav ul li a:before {
+	display: block;
+	width: 6px;
+	height: 6px;
+	content: "";
+	position: absolute;
+	top: 50%;
+	margin-top: -3px;
+	left: 0px;
+	background: transparent url(../images/sprites.svg) no-repeat 0px -224px;
+}
+
+nav .f {
+	margin-left: 5px;
+	margin-top: 10px;
+	display: inline-block;
+	width: 20px;
+	height: 10px;
+	background: transparent url(../images/sprites.svg) no-repeat 15px -250px;
+}
+
+#t1,
+#t2,#t3 {
+	width: 100%;
+	border: 25px solid #FFFFFF;
+}
+
+#t1 {
+	width: 100%;
+	height: 600px;
+	background: url(../images/bg-header.jpg) fixed center no-repeat transparent;
+	background-size: 100%;
+}
+
+#t2 {
+	width: 100%;
+	height: 450px;
+	background: url(../images/ambiance.jpg) fixed center no-repeat transparent;
+	background-size: 100%;
+}
+#t3 {
+	width: 100%;
+	height: 500px;
+	background: url(../images/ambiance5.jpg) fixed center no-repeat transparent;
+	background-size: 100%;
+}
+#one {
+	overflow: hidden;
+	position: relative;
+	background-color: #FFFFFF;
+}
+
+#one span {
+	position: absolute;
+	top: 0;
+	height: 50px;
+	z-index: 2;
+	display: block;
+	background: url(../images/sprites.svg) no-repeat 33px -174px #FFFFFF;
+}
+
+.txt {
+	padding-top: 120px;
+	box-sizing: border-box;
+}
+
+#one h1:nth-of-type(1) {
+	color: #6cbaaf;
+}
+
+#one h1:nth-of-type(2) {
+	font-size: 45px;
+	color: #f6af33;
+}
+
+#one>p {
+	line-height: 35px;
+	font-size: 20px;
+	padding-bottom: 83px;
+}
+
+#two {
+	background: url(../images/ambiance.jpg) fixed;
+}
+
+#two>.left,
+#two>.right {
+	background-color: #FFFFFF;
+}
+
+ul {
+	margin-bottom: 0;
+}
+
+#two>.left {
+	padding-top: 80px;
+	padding-left: 8.4%;
+}
+
+
+#two>.left>h2 {
+	font-size: 50px;
+	color: #f6af33;
+}
+
+#two>.left>span {
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+
+mark {
+	color: #33baaf;
+	background-color: #FFFFFF;
+}
+
+#two>.left>p:before {
+	width: 30px;
+	height: 30px;
+	content: "*";
+	color: #f6af33;
+	display: block;
+	float: left;
+	font-size: 50px;
+}
+
+#two>.left>p {
+	margin-bottom: 70px;
+	margin-top: 20px;
+}
+
+#two>.left>ul li {
+	list-style: none;
+	margin-top: 25px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #f6af33;
+}
+
+#two>.left>ul li>a {
+	color: #F6AF33;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#collapseExample1 {
+	margin-top: 20px;
+}
+
+.right>.top {
+	overflow: hidden;
+	height: 170px;
+	border-radius: 50%;
+	background: url(../images/sprites.svg) no-repeat 0px 0px;
+}
+
+.right>.top p {
+	margin-top: 25px;
+}
+.lunbo{
+	margin-top: 50px;
+}
+blockquote{
+	text-align: center;
+	margin-top: 70px;
+	font-size: 25px;
+	border-left: none;
+	background-color: #FFFFFF;
+}
+hr{
+	border: 1px solid #33baaf;
+}
+.bb{
+	font-size: 25px;
+	color: #33baaf;
+	padding: 30px 0;
+	font-weight: 600;
+}
+#three>.right{
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+.photo{
+	height: 380px;
+}
+.sm{
+	padding-top: 177px;
+	box-sizing: border-box;
+}
+#four{
+	background-color:#33baaf;
+	margin: 30px 25px;
+	overflow: hidden;
+	color: #FFFFFF;
+}
+.left ul li{
+	padding-left: 50px;
+	list-style: none;
+	margin-top:40px;
+	position: relative;
+}
+.bottom{
+	padding: 50px;
+}
+.it:before{
+	width: 32px;
+	height: 43px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	content: "";
+	
+}
+.it:nth-of-type(1):before{
+    background: transparent url(../images/sprites.svg) no-repeat -64px -192px;
+}
+.it:nth-of-type(2):before{
+    background: transparent url(../images/sprites.svg) no-repeat -128px -192px;
+}
+.it:nth-of-type(3):before{
+    background: transparent url(../images/sprites.svg) no-repeat 0px -320px;
+}
+.it:nth-of-type(4):before{
+    background: transparent url(../images/sprites.svg) no-repeat -288px -192px;
+}
+#it:before{
+	width: 32px;
+	height: 43px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	content: "";
+    background: transparent url(../images/sprites.svg) no-repeat -192px -192px;
+}
+#four .right{
+	height: 300px;
+	background-image: url(../images/map.png);
+	background-size: 100%;
+}
+.m>div{
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+.foot{
+	height: 70px;
+	margin-top: 70px;
+	background: url(../images/pattern-bottom.svg) no-repeat;
+}
